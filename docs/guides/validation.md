@@ -105,7 +105,7 @@ export const ValidationSchemaExample = () => (
         email: '',
       }}
       validationSchema={SignupSchema}
-      onSubmit={values => {
+      onSubmit={(values) => {
         // same shape as initial values
         console.log(values);
       }}
@@ -171,7 +171,7 @@ export const FieldLevelValidationExample = () => (
         username: '',
         email: '',
       }}
-      onSubmit={values => {
+      onSubmit={(values) => {
         // same shape as initial values
         console.log(values);
       }}
